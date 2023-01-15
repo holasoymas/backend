@@ -11,9 +11,9 @@ const PORT = process.env.PORT || 8000
 
 let notes = data.notes;
 
-app.get("/", (req, res) => {
-  res.send('<h1>This is backend. nothing is in here use "/api/notes" to see data </h1>')
-})
+// app.get("/", (req, res) => {
+//   res.send('<h1>This is backend. nothing is in here use "/api/notes" to see data </h1>')
+// })
 
 app.get("/api/notes", (req, res) => {
   res.json(notes)
