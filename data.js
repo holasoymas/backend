@@ -18,4 +18,3 @@ exports.notes = [
     important: true
   }
 ]
-

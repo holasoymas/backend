@@ -47,4 +47,3 @@ Note.find({ important: false }).then(result => {
 })
 
 module.exports = Note;
-
